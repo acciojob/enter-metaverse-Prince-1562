@@ -4,22 +4,8 @@ body {
   margin-top: 100px;
 }
 
-#status {
-  font-size: 20px;
-  color: #333;
-  margin-bottom: 20px;
-}
-
 #enterBtn {
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
-  background-color: #6c63ff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-}
-
-#enterBtn:hover {
-  background-color: #574fd6;
 }

@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Enter Metaverse</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
   <p id="status">Enter the Metaverse</p>
   <button id="enterBtn">Enter</button>
 
-  <script src="script.js"></script>
+  <script>
+    document.getElementById("enterBtn").addEventListener("click", function() {
+      const statusElement = document.getElementById("status");
+      statusElement.outerHTML = "<h1 id='status'>Entered Metaverse</h1>";
+    });
+  </script>
+
 </body>
 </html>
